@@ -1,4 +1,4 @@
-# Atividade 01 — Classificação com MLP
+# Atividade 01 — Data Preparation and Analysis for Neural Networks
 
 ## Objetivo
 Treinar um perceptron multicamadas (MLP) para classificar um dataset simples.
