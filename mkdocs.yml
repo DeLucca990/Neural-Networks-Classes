@@ -39,6 +39,7 @@ theme:
 
 plugins:
   - search
+  - glightbox
 
 markdown_extensions:
   - admonition
@@ -52,3 +53,5 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
