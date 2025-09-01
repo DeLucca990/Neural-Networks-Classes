@@ -1,4 +1,4 @@
-site_name: Artificial Neural Networks and Deep Learning - Entregas
+site_name: Artificial Neural Networks and Deep Learning
 site_description: Materiais, atividades e projetos da disciplina de Deep Learning
 site_author: Pedro De Lucca
 repo_url: https://github.com/DeLucca990/Neural-Networks-Classes
@@ -8,7 +8,10 @@ site_url: ''
 nav:
   - Home: index.md
   - Atividades:
-      - Atividade 01: activities/activity_01.md
+    - Atividade 01:
+      - Visão Geral: activities/activity_01.md
+    - Atividade 02: 
+      - Visão Geral: activities/activity_02.md
   - Projetos:
       - Projeto 01: projects/project_01.md
 
