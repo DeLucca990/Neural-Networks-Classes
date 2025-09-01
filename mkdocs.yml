@@ -8,9 +8,9 @@ site_url: ''
 nav:
   - Home: index.md
   - Atividades:
-    - Atividade 01:
+    - Atividade 01 - Data:
       - Visão Geral: activities/activity_01.md
-    - Atividade 02: 
+    - Atividade 02 - Perceptron: 
       - Visão Geral: activities/activity_02.md
   - Projetos:
       - Projeto 01: projects/project_01.md
