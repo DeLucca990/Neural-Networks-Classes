@@ -4,14 +4,13 @@
 ### Descrição
 - **Notebook de Exploração:** `code/exercises/02-Perceptron/ex-01.ipynb`
 - **Classes:**  
-    - Classe 0: média [2,2], variância 0.5  
+    - Classe 0: média [1.5,1.5], variância 0.5  
     - Classe 1: média [5,5], variância 0.5  
-- **Propriedades:** baixa variância e médias distantes → classes **quase perfeitamente separáveis**.  
+- **Propriedades:** baixa variância e médias distantes → classes **perfeitamente separáveis**.  
 
 ### Resultados
-- **Convergência:** não atingiu convergência estrita em 100 épocas, mas obteve quase 100% de acurácia.  
-- **Acurácia final:** ~**99.9%**  
-- **Erros:** apenas **2 pontos mal classificados** (outliers).  
+- **Convergência:** não atingiu convergência estrita em 100 épocas, mas obteve 100% de acurácia.  
+- **Acurácia final:** **100%**   
 
 ### Gráficos
 
@@ -60,8 +59,8 @@
 |---------|-------------|-------------|
 | **Separabilidade** | Quase linearmente separável | Forte sobreposição |
 | **Convergência** | Quase perfeita, acurácia ~100% | Nunca converge, oscila |
-| **Acurácia final** | 99.9% | ~73% |
-| **Erros** | ~2 pontos | ~512 pontos |
+| **Acurácia final** | 100% | ~73% |
+| **Erros** | 0 pontos | ~512 pontos |
 | **Decisão** | Reta clara que separa bem | Reta com muitos erros inevitáveis |
 
 ### Visualização lado a lado
