@@ -57,8 +57,8 @@
 
 | Aspecto | Exercício 1 | Exercício 2 |
 |---------|-------------|-------------|
-| **Separabilidade** | Quase linearmente separável | Forte sobreposição |
-| **Convergência** | Quase perfeita, acurácia ~100% | Nunca converge, oscila |
+| **Separabilidade** | Linearmente separável | Forte sobreposição |
+| **Convergência** | Perfeita, acurácia 100% | Nunca converge, oscila |
 | **Acurácia final** | 100% | ~73% |
 | **Erros** | 0 pontos | ~512 pontos |
 | **Decisão** | Reta clara que separa bem | Reta com muitos erros inevitáveis |
