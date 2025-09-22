@@ -12,6 +12,8 @@ nav:
       - Visão Geral: activities/activity_01.md
     - Atividade 02 - Perceptron: 
       - Visão Geral: activities/activity_02.md
+    - Atividade 03 - MLP:
+      - Visão Geral: activities/activity_03.md
   - Projetos:
       - Projeto 01: projects/project_01.md
 
@@ -58,3 +60,8 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.blocks.caption
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
