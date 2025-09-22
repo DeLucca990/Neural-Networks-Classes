@@ -12,6 +12,8 @@ nav:
       - Visão Geral: activities/activity_01.md
     - Atividade 02 - Perceptron: 
       - Visão Geral: activities/activity_02.md
+    - Atividade 03 - MLP:
+      - Visão Geral: activities/activity_03.md
   - Projetos:
       - Projeto 01: projects/project_01.md
 
