@@ -1,10 +1,10 @@
 # Projeto 01 — Classificação de Alertas de Terremotos com MLP
 
-## Estudantes:
+## Estudantes
 - Pedro De Lucca S C Ferro
 - Carlos Yamada
 
-## Código Fonte:
+## Código Fonte
 - Notebook de exploração e modelagem: `code/projects/01-Classification/main.ipynb`
 
 ## Resumo
