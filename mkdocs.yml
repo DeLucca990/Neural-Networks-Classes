@@ -15,7 +15,8 @@ nav:
     - Atividade 03 - MLP:
       - Visão Geral: activities/activity_03.md
   - Projetos:
-      - Projeto 01: projects/project_01.md
+    - Projeto 01 - Classificação de Alertas de Terremotos com MLP:
+      - Visão Geral: projects/project_01.md
 
 theme:
   name: material
