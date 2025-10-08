@@ -4,6 +4,9 @@
 - Pedro De Lucca S C Ferro
 - Carlos Yamada
 
+## Código Fonte:
+- Notebook de exploração e modelagem: `code/projects/01-Classification/main.ipynb`
+
 ## Resumo
 
 Este projeto implementa uma rede neural Multi-Layer Perceptron (MLP) para classificação de alertas de terremotos em quatro categorias: **green**, **yellow**, **orange** e **red**. O modelo foi treinado utilizando dados sísmicos que incluem características como magnitude, profundidade, intensidade sentida pela comunidade (CDI), intensidade de danos (MMI) e significância do evento.
@@ -39,7 +42,7 @@ O dataset utilizado é uma versão pré-processada e otimizada especificamente p
 
 ### Balanceamento dos Dados via SMOTE
 
-O dataset utilizado foi balanceado, pelo autor, utilizando **SMOTE** (*Synthetic Minority Over-sampling Technique*), uma técnica avançada de oversampling que gera amostras sintéticas para as classes minoritárias. Diferente da simples duplicação de amostras, o SMOTE cria novos exemplos interpolando entre instâncias existentes da classe minoritária, resultando em:
+O dataset utilizado foi balanceado utilizando **SMOTE** (*Synthetic Minority Over-sampling Technique*), uma técnica avançada de oversampling que gera amostras sintéticas para as classes minoritárias. Diferente da simples duplicação de amostras, o SMOTE cria novos exemplos interpolando entre instâncias existentes da classe minoritária, resultando em:
 
 - **Melhor generalização**: O modelo aprende padrões mais diversos em vez de memorizar amostras duplicadas
 - **Redução de overfitting**: Amostras sintéticas adicionam variabilidade controlada ao dataset
