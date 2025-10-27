@@ -14,6 +14,8 @@ nav:
       - Visão Geral: activities/activity_02.md
     - Atividade 03 - MLP:
       - Visão Geral: activities/activity_03.md
+    - Atividade 04 - VAE:
+      - Visão Geral: activities/activity_04.md
   - Projetos:
     - Projeto 01 - Classificação de Alertas de Terremotos com MLP:
       - Visão Geral: projects/project_01.md
