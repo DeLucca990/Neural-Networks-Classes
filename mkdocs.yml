@@ -19,6 +19,8 @@ nav:
   - Projetos:
     - Projeto 01 - Classificação de Alertas de Terremotos com MLP:
       - Visão Geral: projects/project_01.md
+    - Projeto 02 - Regressão de Preços de Combustíveis no Brasil:
+      - Visão Geral: projects/project_02.md
 
 theme:
   name: material
