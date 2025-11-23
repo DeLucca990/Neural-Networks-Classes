@@ -1,11 +1,22 @@
-# Projeto 03 - Generative
+# Projeto 03 — Geração de Conteúdo Multimodal com IA Generativa
 
-### Integrantes do Grupo
+## Estudantes
+- Pedro De Lucca S C Ferro
 - Carlos Eduardo P. Yamada
 
-- Pedro De Lucca S. C. Ferro
+## Resumo
 
-## Modelos
+Este projeto explora o uso de modelos generativos pré-treinados para geração de conteúdo multimodal (imagens e áudio) a partir de texto. Utilizando a ferramenta visual **ComfyUI** e modelos baseados em difusão (*Stable Diffusion*) e síntese de áudio, foram desenvolvidas duas pipelines: **Text-to-Image** (texto para imagem) e **Text-to-Song** (texto para música). O projeto demonstra como modelos generativos de última geração podem ser orquestrados para criar conteúdo artístico de alta qualidade através de workflows visuais.
+
+## Objetivos
+
+- Implementar pipelines de geração de conteúdo multimodal utilizando modelos pré-treinados
+- Demonstrar o uso de *Contrastive Language–Image Pre-training* (CLIP) para condicionamento de modelos generativos
+- Explorar técnicas de síntese de imagem baseadas em difusão (*diffusion models*)
+- Gerar música a partir de descrições textuais e letras
+- Avaliar qualitativamente a qualidade e coerência dos outputs gerados
+
+## Metodologia
 
 As pipelines de modelos utilizadas nesse projeto foram feitas com base em modelos previamente treinados utilizando a ferramenta visual ComfyUI[^1]
 
@@ -150,6 +161,40 @@ Foram gerados dois áudios de acordo com as entradas especificadas abaixo.
         ```
 
     ![type:audio](../assets/projects/03/sample2.mp3)
+
+## Discussão
+
+### Pontos Fortes
+
+1. **Qualidade dos outputs**: Ambos os modelos (Text-to-Image e Text-to-Song) produziram resultados de alta qualidade, demonstrando a maturidade dos modelos generativos atuais
+2. **Flexibilidade do workflow**: A arquitetura baseada em ComfyUI permite fácil experimentação e ajuste de parâmetros sem necessidade de programação extensiva
+3. **Condicionamento efetivo**: O uso de CLIP para condicionamento positivo e negativo permitiu controle fino sobre as características desejadas nas imagens geradas
+4. **Multimodalidade**: Demonstração bem-sucedida de geração em duas modalidades distintas (visual e auditiva) usando abordagens conceituais similares
+
+### Limitações
+
+1. **Dependência de modelos pré-treinados**: Não houve treinamento customizado, limitando a personalização para domínios específicos
+2. **Avaliação qualitativa**: Falta de métricas quantitativas objetivas para avaliar a qualidade dos outputs (FID para imagens, MOS para áudio)
+3. **Controle limitado**: Apesar do condicionamento via CLIP, o controle fino sobre detalhes específicos permanece desafiador
+4. **Custo computacional**: Modelos de difusão requerem recursos significativos, especialmente para geração de alta resolução
+5. **Reprodutibilidade**: Variações estocásticas inerentes aos modelos generativos podem dificultar a reprodução exata dos resultados
+
+### Melhorias Possíveis
+
+- **Fine-tuning**: Treinar os modelos em datasets específicos para melhorar resultados em domínios particulares
+- **Métricas quantitativas**: Implementar FID (*Fréchet Inception Distance*) para imagens e MOS (*Mean Opinion Score*) para áudio
+- **ControlNet**: Adicionar condicionamento espacial adicional para maior controle sobre composição de imagens
+- **Pós-processamento**: Aplicar técnicas de upscaling e refinamento para melhorar qualidade final
+- **Batch generation**: Gerar múltiplas variações para seleção dos melhores resultados
+- **Integração de modelos mais recentes**: Explorar Stable Diffusion XL, DALL-E 3 ou Midjourney para comparação
+
+## Conclusão
+
+O projeto demonstrou com sucesso a aplicação de modelos generativos pré-treinados para criação de conteúdo multimodal de alta qualidade. As pipelines desenvolvidas em ComfyUI ilustram como ferramentas visuais podem democratizar o acesso a tecnologias de IA generativa, permitindo experimentação sem necessidade de expertise profunda em programação.
+
+**Text-to-Image** produziu imagens coerentes e esteticamente agradáveis, com controle efetivo através de prompts positivos e negativos. O uso de CLIP para condicionamento e VAE para decodificação no espaço latente mostrou-se uma abordagem robusta.
+
+**Text-to-Song** gerou composições musicais em múltiplos idiomas, demonstrando a versatilidade dos modelos generativos além da modalidade visual. A capacidade de controlar aspectos como BPM, estilo e vocalização através de tags textuais abre possibilidades criativas interessantes.
 
 [^1]:
     [ComfyUI | Generate video, images, 3D, audio with AI](https://www.comfy.org)
