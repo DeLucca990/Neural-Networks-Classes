@@ -21,6 +21,8 @@ nav:
       - Visão Geral: projects/project_01.md
     - Projeto 02 - Regressão de Preços de Combustíveis no Brasil:
       - Visão Geral: projects/project_02.md
+    - Projeto 03 - Generative:
+      - Visão Geral: projects/project_03.md
 
 theme:
   name: material
